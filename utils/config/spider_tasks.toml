@@ -1,0 +1,7 @@
+
+["京*到*"]
+  cmd = "cd ./spider/spiders&&python3 daojia.py"
+  cron = "0 5 * * *"
+  id = "5"
+  name = "京*到*"
+  status = "start"
