@@ -17,7 +17,7 @@
 1. go run daemon/daemon.go monitor 会启动监控程序,读取utils/config/spider_tasks.toml下的爬虫任务进行长期守护式的监控
 2. go run daemon/daemon.go run name "test" 运行spider_tasks.toml下name为test的爬虫
 3. go run daemon/daemon.go run id 1 运行spider_tasks.toml下id为1的爬虫
-4. 3. go run daemon/daemon.go all 运行当天所有爬虫程序
+4. go run daemon/daemon.go run all 运行当天所有爬虫程序
 
 #### 文件树介绍
 1. daemon/daemon.go是运行文件
